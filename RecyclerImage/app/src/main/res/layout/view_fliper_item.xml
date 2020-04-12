@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/laba"
+            android:layout_marginLeft="5dp"
+            android:layout_height="18dp"
+            android:layout_width="18dp"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:text="此项滚动"
+            android:id="@+id/flipper_item_1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/laba"
+            android:layout_marginLeft="5dp"
+            android:layout_height="18dp"
+            android:layout_width="18dp"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="此项滚动"
+            android:id="@+id/flipper_item_2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

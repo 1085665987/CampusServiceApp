@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <views.MZBannerView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:open_mz_mode="true"
+        app:canLoop="true"
+        app:indicatorAlign="center"
+        app:middle_page_cover="false"
+        app:indicatorPaddingLeft="10dp"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="失物"
+            android:id="@+id/lost_txt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="招领"
+            android:id="@+id/found_txt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="20dp"
+        android:id="@+id/lost_or_found_viewpager"
+        android:layout_below="@+id/top"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"/>
+</RelativeLayout>

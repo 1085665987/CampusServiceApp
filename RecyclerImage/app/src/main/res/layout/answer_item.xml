@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="发帖人"
+        android:textSize="13dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:text="发帖人"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/forumer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="回复" />
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:text="评论人"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/commenter"
+        android:textColor="@android:color/holo_blue_dark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="：" />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:text="回复内容"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_context"/>
+    </LinearLayout>
+
+</RelativeLayout>

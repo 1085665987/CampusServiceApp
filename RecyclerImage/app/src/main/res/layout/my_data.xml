@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <com.aspsine.swipetoloadlayout.SwipeToLoadLayout
+        android:id="@+id/swipeToLoadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <views.RefreshHeadView
+            android:id="@+id/swipe_refresh_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/image4" />
+
+                <TextView
+                    android:id="@+id/empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/image"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_below="@+id/empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/image"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_marginLeft="20dp"
+                    android:text="姓名我"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:padding="7dp"
+                    android:backgroundTint="@color/cursor_color"
+                    android:background="@drawable/yellow_button"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/image"
+                    android:id="@+id/change_data"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                    android:text="编辑资料"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/name"
+                android:layout_marginLeft="20dp"
+                android:text="姓名我"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/sex"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignTop="@+id/name"
+                android:layout_toRightOf="@+id/name"
+                android:src="@mipmap/ic_launcher_round"
+                android:layout_height="17dp"
+                android:layout_width="17dp"/>
+
+            <TextView
+                android:layout_below="@id/name"
+                android:layout_alignLeft="@id/name"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:paddingTop="3dp"
+                android:text="学校"
+                android:id="@+id/school"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/head"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignBottom="@+id/background"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/qq" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/school"
+                android:background="@color/translucent_nodata"
+                android:layout_height="15dp"
+                android:layout_width="match_parent"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="50dp"
+                android:scrollbars="vertical">
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+        <views.LoadMoreView
+            android:id="@+id/swipe_load_more_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp" />
+    </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/cancer" />
+    </RelativeLayout>
+</RelativeLayout>

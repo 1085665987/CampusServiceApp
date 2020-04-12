@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/p_month"
+            android:src="@mipmap/setting"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"/>
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/current_day"
+            android:text="--.--"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"/>
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/n_month"
+            android:src="@mipmap/setting"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.othershe.calendarview.weiget.WeekView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+        <com.othershe.calendarview.weiget.CalendarView
+            android:layout_marginTop="5dp"
+            android:id="@+id/calendar"
+            app:choose_color="@color/cursor_color"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

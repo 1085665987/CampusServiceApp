@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pullRefresh_reality_content">
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@mipmap/xuanzhuan_1"
+        android:id="@+id/pullRefresh_arrow"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:progressDrawable="@android:color/holo_orange_dark"
+        android:id="@+id/pullRefresh_progressbar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不忘初心，砥砺前行"
+        android:id="@+id/pullRefresh_text"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="......"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pullRefresh_title"/>
+</LinearLayout>

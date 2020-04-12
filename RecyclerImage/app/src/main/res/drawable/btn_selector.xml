@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button正常状态下的背景 -->
+    <item
+        android:drawable="@drawable/btn_shape"
+        android:state_pressed="false"/>
+</selector>

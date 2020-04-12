@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cursor_color">#FFFFC53E</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="translucent_nodata">#61c4c4c4</color>
+    <color name="translucent_yesdata">#61202020</color>
+
+    <!--底部栏选中状态-->
+    <color name="selected_color">#fcff3e</color>
+    <!--底部栏未选中状态-->
+    <color name="no_selected_color">#dfdfdf</color>
+
+
+    <color name="mainColor">#573567</color>
+
+    <color name="font_gray_b">#d4d4d3</color>
+
+    <color name="font_tab_1">#42369a</color>
+    <color name="font_tab_0">#b1b1b1</color>
+
+    <color name="white_yellow">#f2ece1</color>
+
+    <color name="font_common_1">#424242</color>
+    <color name="font_common_2">#a1a1a1</color>
+    <color name="font_blue">#42369a</color>
+
+    <color name="font_green">#00cccc</color>
+
+    <color name="commom_background">#f3f3f3</color>
+
+    <color name="txt_defalt_color">#767676</color>
+
+
+    <color name="light_grey">#ededed</color>
+
+</resources>

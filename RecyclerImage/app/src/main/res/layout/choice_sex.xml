@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="@color/white"
+        android:id="@+id/male"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="男"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:background="@color/no_selected_color"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:background="@color/white"
+        android:id="@+id/female"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="女"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:background="@color/no_selected_color"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:background="@color/white"
+        android:textColor="@color/cursor_color"
+        android:id="@+id/cancel"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="取消"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">易校园</string>
+
+
+    <string name="image_url">http://1.eggplant1.applinzi.com/perfect/head_down.php</string>
+
+    <string name="buy_train_url">http://1.eggplant1.applinzi.com/perfect/train.php</string>
+    <string name="change_nickname_url">http://1.eggplant1.applinzi.com/perfect/edit_username.php</string>
+
+    <string name="edit_down_url">http://1.eggplant1.applinzi.com/perfect/edit_down.php</string>
+
+    <string name="forum_upload">http://1.eggplant1.applinzi.com/perfect/dongtai_upload.php</string>
+    <string name="forum_delete">http://1.eggplant1.applinzi.com/perfect/dongtai_delete.php</string>
+    <string name="forum_love">http://1.eggplant1.applinzi.com/perfect/zan_press.php</string>
+    <string name="forum_love_cancel">http://1.eggplant1.applinzi.com/perfect/zan_cancel.php</string>
+    <string name="comment_add">http://1.eggplant1.applinzi.com/perfect/comment_add.php</string>
+
+    <string name="mine_data">http://1.eggplant1.applinzi.com/perfect/mine.php</string>
+
+    <string name="base_image_url">http://eggplant1-blog.stor.sinaapp.com/</string>
+    <string name="outlogin_url">http://1.eggplant1.applinzi.com/perfect/exit.php</string>
+    <string name="update_login_state_url">http://1.eggplant1.applinzi.com/perfect/is_ok.php</string>
+
+    <string name="select_school">http://1.eggplant1.applinzi.com/perfect/select_school.php</string>
+
+    <string name="get_login_YZM">http://1.eggplant1.applinzi.com/perfect/Send.php</string>
+    <string name="dongtai_in">http://1.eggplant1.applinzi.com/perfect/dongtai_in.php</string>
+
+    <string name="dongtai_down">http://1.eggplant1.applinzi.com/perfect/dongtai_down.php</string>
+    <string name="dongtai_attention">http://1.eggplant1.applinzi.com/perfect/attention.php</string>
+    <string name="dongtai_do_attention">http://1.eggplant1.applinzi.com/perfect/attention_add.php</string>
+    <string name="dongtai_is_attention">http://1.eggplant1.applinzi.com/perfect/attention_is.php</string>
+    <string name="dongtai_cancel_attention">http://1.eggplant1.applinzi.com/perfect/attention_cancel.php</string>
+    <string name="lost_found_down">http://1.eggplant1.applinzi.com/perfect/lost_found_down.php</string>
+    <string name="lost_found_insert">http://1.eggplant1.applinzi.com/perfect/lost_found_insert.php</string>
+    <string name="fix_url">http://1.eggplant1.applinzi.com/perfect/baoxiu_insert.php</string>
+    <string name="school_website_url">http://1.eggplant1.applinzi.com/perfect/school_website.php</string>
+    <string name="wall_show">http://1.eggplant1.applinzi.com/perfect/wall_show.php</string>
+    <string name="wall_down">http://1.eggplant1.applinzi.com/perfect/wall_down.php</string>
+    <string name="wall_insert">http://1.eggplant1.applinzi.com/perfect/wall_insert.php</string>
+    <string name="wall_update">http://1.eggplant1.applinzi.com/perfect/wall_update.php</string>
+
+
+    <string name="login_url">http://1.eggplant1.applinzi.com/perfect/login.php</string>
+
+    <string name="start_url">http://1.eggplant1.applinzi.com/perfect/start.php</string>
+    <string name="service_url">http://192.168.1.164:8081/MyProject/</string>
+    <string name="getForums_url">ForumServlet</string>
+    <string name="school_url">http://1.eggplant1.applinzi.com/perfect/main.php</string>
+
+    <string name="no_date">--.--</string>
+
+    <string-array name="function_resource">
+        <item>校园卡</item>
+        <item>火车学生票</item>
+        <item>电费</item>
+        <item>学校简介</item>
+        <item>失物招领</item>
+        <item>宿舍报修</item>
+        <item>通知</item>
+        <item>附近搜索</item>
+    </string-array>
+
+    <string-array name="function_resource_img">
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+    </string-array>
+
+    <string-array name="function_student_card_txt">
+        <item>今日账单</item>
+        <item>交易明细</item>
+        <item>挂失</item>
+        <item>捡卡登记</item>
+        <item>修改密码</item>
+    </string-array>
+    <string-array name="function_student_card_img">
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+        <item>R.mipmap.ic_launcher_round</item>
+    </string-array>
+
+
+    <string name="submit">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+</resources>
